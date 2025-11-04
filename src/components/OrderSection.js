@@ -4,7 +4,6 @@ import React, { useState, useEffect } from 'react';
 const triggerConfetti = () => {
   const confettiCount = 50;
   const duration = 3000;
-  const confetti = [];
 
   for (let i = 0; i < confettiCount; i++) {
     setTimeout(() => {

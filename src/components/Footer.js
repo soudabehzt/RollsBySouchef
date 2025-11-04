@@ -9,7 +9,7 @@ function Footer() {
             <a href="#home" aria-label="Home">
               <img className="logo" src="/images/logo2.png" alt="SouChef" />
             </a>
-            <ul className="social-list" role="list" aria-label="Social links">
+            <ul className="social-list" aria-label="Social links">
               <li>
                 <a 
                   href="https://ca.pinterest.com/soudabehtorbati/?invite_code=8ef1a356b9e94667a78c33bdb64a8674&sender=943433959348684411" 

@@ -17,7 +17,7 @@ function Header() {
             <img src="/images/logo.png" alt="SouChef" className="site-logo" />
           </a>
           <nav className="primary-navigation" id="primary-navigation">
-            <ul role="list" aria-label="Primary" className="nav-list">
+            <ul aria-label="Primary" className="nav-list">
               <li><a href="#home">Home</a></li>
               <li><a href="#order" onClick={handleOrderClick}>Order</a></li>
             </ul>
