@@ -2031,6 +2031,18 @@ body:has(.hero) .hero::after {
   letter-spacing: -0.3px;
 }
 
+.pricing-info h3 .pricing-title-line1::after {
+  content: ' ';
+}
+
+.pricing-info h3 .pricing-title-line2::before {
+  content: '( ';
+}
+
+.pricing-info h3 .pricing-title-line2::after {
+  content: ' )';
+}
+
 .pricing-info ul {
   list-style: none;
   padding: 0;
@@ -2592,6 +2604,25 @@ body:has(.hero) .hero::after {
 
   .pricing-info h3 {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .pricing-info h3 .pricing-title-line1::after {
+    content: '';
+  }
+
+  .pricing-info h3 .pricing-title-line2 {
+    font-size: 0.85em;
+  }
+
+  .pricing-info h3 .pricing-title-line2::before {
+    content: '';
+  }
+
+  .pricing-info h3 .pricing-title-line2::after {
+    content: '';
   }
 
   .pricing-info ul {

@@ -169,7 +169,10 @@ function OrderSection() {
       </div>
 
       <div className="pricing-info">
-        <h3>Bundle Pricing (Mix & Match)</h3>
+        <h3>
+          <span className="pricing-title-line1">Bundle Pricing</span>
+          <span className="pricing-title-line2">Mix & Match</span>
+        </h3>
         <ul>
           <li>
             <div className="pricing-item-left">
